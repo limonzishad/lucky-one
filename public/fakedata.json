@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Dell Inspiron 15 Laptop",
+    "price": 600,
+    "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/inspiron-15-5510/global-spi/ng/notebook-inspiron-15-5510-campaign-hero-504x350-gy-ng.jpg?fmt=jpg&wid=570&hei=400"
+  },
+  {
+    "id": "2",
+    "name": "Dell XPS 13 Touch Laptop",
+    "price": 850,
+    "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9305-touch/general/notebooks-xps-13-9305-laptop-pdp-design-gallery504x350.jpg?qlt=95&fit=constrain,1&hei=350&wid=504&fmt=jpg&wid=570&hei=400"
+  },
+  {
+    "id": "3",
+    "name": "Dell XPS 17 Laptop",
+    "price": 1900,
+    "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-17-9710/pdp/notebooks-xps-17-9710-tgl-pdp-design-gallery504x350.jpg?fmt=jpg&wid=570&hei=400"
+  },
+  {
+    "id": "4",
+    "name": "HP ENVY Laptop - 15t-ep100",
+    "price": 1100,
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07968249.png?imwidth=248&imdensity=1"
+  },
+  {
+    "id": "5",
+    "name": "HP ZBook Studio G8",
+    "price": 2900,
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07638934.png?imwidth=248&imdensity=1"
+  },
+  {
+    "id": "6",
+    "name": "Lenovo IdeaPad 3",
+    "price": 1600,
+    "img": "https://www.lenovo.com/medias/lenovo-laptop-ideapad-3-15-amd-subseries-gallery-2.jpg?context=bWFzdGVyfHJvb3R8MzAyODB8aW1hZ2UvanBnfGhjOC9oOTAvMTA3NDQ5NjI5NDA5NTguanBnfDdiYzRjYTA5NTY4MGU3MjBlNjMwYWVhYjhmZDg3NGQyZWRhODBlMWJiMzBhZWExNWQ0OTE4MTEwYzFlM2ZhYjU"
+  },
+  {
+    "id": "7",
+    "name": "Lenovo X380 Yoga",
+    "price": 1850,
+    "img": "https://www.lenovo.com/medias/lenovo-laptop-thinkpad-x380-2-in-1-front.png?context=bWFzdGVyfHJvb3R8MTg5Njd8aW1hZ2UvcG5nfGgwMC9oNDcvOTYxNzc5NDAzOTgzOC5wbmd8OGRkNWU5YjE2NDI0MjgyOTVhM2JhNmIzOTIzNmVmZjU5NWQxNGQ5ZjRkNmJhMjUxN2ViYzFkNDE4MjZkMGZjMQ&w=1920"
+  },
+  {
+    "id": "8",
+    "name": "Lenovo X270",
+    "price": 1900,
+    "img": "https://www.lenovo.com/medias/lenovo-laptop-thinkpad-x270-front.png?context=bWFzdGVyfHJvb3R8MTc2NTR8aW1hZ2UvcG5nfGhhZi9oMzEvOTM5NjQ5NTU4MTIxNC5wbmd8NDVhOGY2ODcyNzQ0MGM0MjY1ZWNhZDM2MTJiYTc5ZGU2MmVjMDA2M2JkMmEwOGU5YTA1YmE1YzhiZWU3OTQzZQ&w=1920"
+  },
+  {
+    "id": "9",
+    "name": "HP Pavilion X360",
+    "price": 650,
+    "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07992350.png"
+  }
+]
