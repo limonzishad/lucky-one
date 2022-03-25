@@ -17,6 +17,7 @@ const Shop = () => {
     const newCart = [...cart, product];
     setCart(newCart);
   }
+
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -24,9 +25,9 @@ const Shop = () => {
           products.map(product => <Product key={product.id} product={product} addToCartHandler={addToCartHandler}></Product>)
         }
       </div>
-      {/* <div className="cart-container">
+      <div className="cart-container">
         <Cart cart={cart}></Cart>
-      </div> */}
+      </div>
     </div>
   );
 }
