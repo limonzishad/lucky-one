@@ -1,4 +1,4 @@
 # laptop-bazar
 
-## [Live Website Link](https://classroom.github.com/a/AD3X5Pv-)
-Click here to visit live website: [https://classroom.github.com/a/AD3X5Pv-](https://classroom.github.com/a/AD3X5Pv-)
+## [Live Website Link](https://lucky-one-limonzishad.netlify.app/)
+Click here to visit live website: [https://lucky-one-limonzishad.netlify.app/](https://lucky-one-limonzishad.netlify.app/)
