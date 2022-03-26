@@ -6,6 +6,7 @@ import Cart from '../Cart/Cart';
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
+  const [product, setProduct] = useState([]);
 
   useEffect(() => {
     fetch("fakedata.json")
@@ -20,10 +21,12 @@ const Shop = () => {
 
   const clearCart = () => {
     setCart([]);
+    setProduct([]);
   }
 
-  const choose1Product = () => {
-    console.log("clicked");
+  const choose1Product = (product) => {
+    const randomProduct = Math.floor(Math.random() * (product.length - 0 + 0)) + 0;
+    setProduct(product[randomProduct]);
   }
 
   return (
@@ -34,7 +37,7 @@ const Shop = () => {
         }
       </div>
       <div className="cart-container">
-        <Cart cart={cart} clearCart={clearCart} choose1Product={choose1Product}></Cart>
+        <Cart cart={cart} clearCart={clearCart} choose1Product={choose1Product} product={product}></Cart>
       </div>
     </div>
   );
