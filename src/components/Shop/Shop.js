@@ -26,7 +26,13 @@ const Shop = () => {
 
   const choose1Product = (product) => {
     const randomProduct = Math.floor(Math.random() * (product.length - 0 + 0)) + 0;
-    setProduct(product[randomProduct]);
+    if (product.length === 0) {
+      product.name = "unfortunately, the cart is empty";
+      setProduct(product);
+    }
+    else {
+      setProduct(product[randomProduct]);
+    }
   }
 
   return (
