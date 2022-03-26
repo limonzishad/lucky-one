@@ -18,6 +18,14 @@ const Shop = () => {
     setCart(newCart);
   }
 
+  const clearCart = () => {
+    setCart([]);
+  }
+
+  const choose1Product = () => {
+    console.log("clicked");
+  }
+
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -26,7 +34,7 @@ const Shop = () => {
         }
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} clearCart={clearCart} choose1Product={choose1Product}></Cart>
       </div>
     </div>
   );

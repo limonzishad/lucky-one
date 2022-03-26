@@ -6,3 +6,31 @@
 .order-list{
   margin-left: 10px;
 }
+
+.btn-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-container button:hover{
+  color: white;
+  background-color: #007bc7;
+}
+
+.random-product{
+  font-weight: 500;
+  margin-bottom: 15px;
+  background-color: skyblue;
+  border: 2px solid #007bc7;
+  border-radius: 8px;
+  padding: 6px;
+}
+.clear-product{
+  font-weight: 500;
+  background-color: skyblue;
+  border: 2px solid #007bc7;
+  border-radius: 8px;
+  padding: 6px;
+}
