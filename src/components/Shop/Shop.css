@@ -17,6 +17,7 @@
   width: 335px;
   margin-top: 10px;
   border: 1px solid #007bc7;
+  box-shadow: 5px 10px 18px #8888888f;
   border-radius: 8px;
   background-color: rgba(19, 170, 190, 0.2);
 }

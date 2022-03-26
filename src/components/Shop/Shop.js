@@ -8,6 +8,7 @@ const Shop = () => {
   const [cart, setCart] = useState([]);
   const [product, setProduct] = useState([]);
 
+  //fetching data from fakedata.json
   useEffect(() => {
     fetch("fakedata.json")
       .then(response => response.json())
@@ -19,6 +20,7 @@ const Shop = () => {
     setCart(newCart);
   }
 
+  //clears cart and random product
   const clearCart = () => {
     setCart([]);
     setProduct([]);
@@ -26,6 +28,7 @@ const Shop = () => {
 
   const choose1Product = (product) => {
     const randomProduct = Math.floor(Math.random() * (product.length - 0 + 0)) + 0;
+    //handling error
     if (product.length === 0) {
       product.name = "unfortunately, the cart is empty";
       setProduct(product);
@@ -48,4 +51,5 @@ const Shop = () => {
     </div>
   );
 }
+
 export default Shop;

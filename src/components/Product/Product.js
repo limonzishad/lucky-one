@@ -1,11 +1,14 @@
 import React from "react";
+// font awesome imported
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Product.css';
 
 const Product = (props) => {
+  //destructuring props
   const { product, addToCartHandler } = props;
   const { img, name, price } = product;
+
   return (
     <div className="product">
       <img src={img} alt={name} />
